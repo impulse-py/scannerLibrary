@@ -1,9 +1,9 @@
 import java.util.Scanner; // Must import scanner at top of main file
-import packageName.scan;
+import packageName.lib;
 
 class Main {
 
-  static scan a = new scan(); // Must instantiate .class file
+  static lib a = new lib(); // Must instantiate .class file
 
   public static void main(String[] args) {
     System.out.println("Please enter a number: ");
