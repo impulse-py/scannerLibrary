@@ -19,3 +19,15 @@ The documentation for the method may be found below:
    - "double" for values containing decimals
    
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+When running the .scanf() method, you will always be returned an Object variable. To fix this, I implemented a set of
+methods to convert the Object into a usable type. These methods are listed below and function similar to the .toString()
+method. They each take 1 object as the parameter, and are intended to be used in conjuntion with the .scanf() method.
+
+The methods are as follows:
+ - .convStr();
+ - .convInt();
+ - .convDouble();
+ - .convChar();
+ - .convBool();
