@@ -3,7 +3,7 @@ import packageName.scan;
 
 class Main {
 
-  static scan a = new scan(); // Must instantiate .class file
+  static scan a = new scan(); // Must instantiate .class/.java file
 
   public static void main(String[] args) {
     System.out.println("Please enter a (desired data type): "); // In this example, the desired data type will be an integer
